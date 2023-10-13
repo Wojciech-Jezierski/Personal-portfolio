@@ -355,11 +355,11 @@ section .header {
   margin-top: 10px;
 }
 
-.pricing {
+.project {
   margin-top: 4rem;
 }
 
-.pricing .card {
+.project .card {
   margin-top: 4rem;
   padding: 3rem 2rem;
   background-color: #27272a;
@@ -368,17 +368,17 @@ section .header {
   transition: all 0.3s ease;
 }
 
-.pricing .card:hover {
+.project .card:hover {
   background-color: #323232;
   border-color: #fff;
 }
 
-.pricing .card .content {
+.project .card .content {
   display: flex;
   margin-bottom: 1rem;
 }
 
-.pricing .card h4 {
+.project .card h4 {
   margin-bottom: 3rem;
   text-align: center;
   color: #fff;
@@ -396,19 +396,19 @@ li {
   margin-top: 5px;
 }
 
-.pricing .card p i {
+.project .card p i {
   color: #ccc;
   font-size: 1.2rem;
   margin-right: 0.3rem;
 }
 
-.pricing .card button {
+.project .card button {
   color: #fff;
   background-color: transparent;
   border: 2px solid #fff;
 }
 
-.pricing .card button:hover {
+.project .card button:hover {
   background-color: #1e40af;
   border-color: #1e40af;
 }
@@ -507,7 +507,7 @@ footer .column > a:hover {
   .about-img {
     width: 60%;
   }
-  .pricing .card {
+  .project .card {
     padding: 3rem 0rem;
   }
 }
@@ -522,7 +522,7 @@ footer .column > a:hover {
     margin: auto;
   }
 
-  .pricing .card .content {
+  .project .card .content {
     flex-direction: column;
     margin-bottom: 1rem;
   }
@@ -544,10 +544,10 @@ footer .column > a:hover {
   .features {
     grid-template-columns: repeat(2, 1fr);
   }
-  .pricing {
+  .project {
     grid-template-columns: repeat(2, 1fr);
   }
-  .pricing .card {
+  .project .card {
     padding: 3rem 2rem;
   }
   footer {
@@ -564,11 +564,11 @@ footer .column > a:hover {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .pricing {
+  .project {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .pricing .card {
+  .project .card {
     padding: 3rem 0rem;
   }
 
@@ -591,7 +591,7 @@ footer .column > a:hover {
     padding: 0;
   }
 
-  .pricing .card {
+  .project .card {
     margin-top: 4rem;
     padding: 0;
   }
