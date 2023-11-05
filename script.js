@@ -51,6 +51,7 @@ readMore.addEventListener('click', () => {
 const HR = document.getElementById("HR");
 const Logistic = document.getElementById("Logistic");
 const Garden = document.getElementById("Garden");
+const Weather = document.getElementById("WeatherApp");
 
 HR.addEventListener('click', () => {
     scrollToElement('#hrDasbhoard');
@@ -62,5 +63,9 @@ Logistic.addEventListener('click', () => {
 
 Garden.addEventListener('click', () => {
     scrollToElement('#gardenWebsite');
+});
+
+Weather.addEventListener('click', () => {
+    scrollToElement('#weatherApp');
 });
 
