@@ -52,6 +52,7 @@ const HR = document.getElementById("HR");
 const Logistic = document.getElementById("Logistic");
 const Garden = document.getElementById("Garden");
 const Weather = document.getElementById("WeatherApp");
+const Expense = document.getElementById("ExpenseTracker")
 
 HR.addEventListener('click', () => {
     scrollToElement('#hrDasbhoard');
@@ -67,5 +68,9 @@ Garden.addEventListener('click', () => {
 
 Weather.addEventListener('click', () => {
     scrollToElement('#weatherApp');
+});
+
+Expense.addEventListener('click', () => {
+    scrollToElement('#expenseTracker');
 });
 
